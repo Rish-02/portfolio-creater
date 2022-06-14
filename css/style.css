@@ -1,0 +1,126 @@
+*{
+    background-color: #F5F5F5;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+    overflow: hidden;
+  }
+/* utility classes */
+
+.btn{
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    background: #ECEBFD;
+    margin: 1rem 4.5rem;
+    padding: .75rem 3.5rem;
+    font-size: 1.5rem;
+    border-radius: 15%;
+    font-weight: 400;
+    font-family: Helvetica, sans-serif;
+    
+}
+
+.picture{
+    flex: 1;
+    display:flex;
+    align-items:flex-end;
+    justify-content: flex-end;
+    padding: 3.5rem 2rem ;
+    margin-top: 2rem;
+    background: url("/portfolio_creater/images/Vector\ 3.png") no-repeat;
+    background-size:contain;
+    background-position: right;
+}
+
+.picture img{
+    background-color: transparent;
+}
+
+.text-primary{
+    color:#bda609;
+}
+
+.text{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content:space-around ;
+    padding: rem 0 0;
+    font-size: 2.0rem;
+    font-family: Helvetica, sans-serif;
+    
+}
+
+.data{
+    display: flex;
+    flex-direction: column;
+    font-weight: 600;
+    margin: 50px 70px 60px;
+
+}
+
+.data input{
+    margin-top: 2rem;
+    border: none;
+    border-bottom:1px solid #AFAAAA;
+    font-size: 1rem;
+}
+
+.form-data{
+    flex: 2;
+}
+
+.buttons{
+    flex: 1;
+}
+
+/* first page */
+#page-1{
+    display: flex;
+    height: 100vh;
+}
+
+.heading{
+    font-size: 43px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex:1;
+}
+
+.heading h1{
+    text-align: center;
+    font-style: italic;
+    font-weight: 810;
+    width: 95%;
+    margin:0 0 2rem 7rem;
+}
+
+
+
+/* second page */
+#page-2{
+    display: flex;
+    height: 100vh;
+}
+
+/* third page */
+#page-3{
+    display: flex;
+    height: 100vh;
+}
+
+/* fourth page */
+#page-4{
+    display: flex;
+    height: 100vh;
+}
+
+
